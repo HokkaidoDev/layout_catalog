@@ -32,7 +32,7 @@
   }
 
   &:hover &__title {
-    color: $card-description-hover-color;
+    color: $card-title-hover-color;
   }
 
   &__code {
@@ -73,9 +73,8 @@
     box-sizing: border-box;
     background-color: $blue-color;
     border: 1px solid $blue-color;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
+    height: $card-button-height;
+    line-height: $card-button-height;
     color: $white-color;
     text-decoration: none;
     text-transform: uppercase;
