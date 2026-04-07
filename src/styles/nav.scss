@@ -1,6 +1,4 @@
 .nav {
-  transition: color 300ms;
-
   &__list {
     display: flex;
     list-style: none;
@@ -23,6 +21,7 @@
     color: $main-color;
     text-align: center;
     padding: 0;
+    transition: color 300ms;
 
     &:hover {
       color: $blue-color;

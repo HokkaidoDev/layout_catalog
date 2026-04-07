@@ -1,20 +1,19 @@
 .catalog {
   display: grid;
-  grid-template-areas: 'card';
-  gap: 48px 46px;
+  grid-template-columns: repeat(1, $card-width);
+  gap: 46px 48px;
   padding: 50px 40px;
-  width: 944px;
-  margin: 0 auto;
+  max-width: 944px;
 
   @media (min-width: 488px) {
-    grid-template-areas: 'card card';
+    grid-template-columns: repeat(2, $card-width);
   }
 
   @media (min-width: 768px) {
-    grid-template-areas: 'card card card';
+    grid-template-columns: repeat(3, $card-width);
   }
 
   @media (min-width: 1024px) {
-    grid-template-areas: 'card card card card';
+    grid-template-columns: repeat(4, $card-width);
   }
 }
