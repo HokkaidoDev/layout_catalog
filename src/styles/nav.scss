@@ -13,7 +13,7 @@
   &__link {
     display: block;
     font-weight: 500;
-    font-size: 12px;
+    font-size: $font-size-sm;
     text-transform: uppercase;
     height: 60px;
     line-height: 60px;
@@ -21,7 +21,7 @@
     color: $main-color;
     text-align: center;
     padding: 0;
-    transition: color 300ms;
+    transition: color $transition-duration;
 
     &:hover {
       color: $blue-color;
