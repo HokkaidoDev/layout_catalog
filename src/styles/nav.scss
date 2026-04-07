@@ -15,8 +15,8 @@
     font-weight: 500;
     font-size: $font-size-sm;
     text-transform: uppercase;
-    height: 60px;
-    line-height: 60px;
+    height: $nav-link-height;
+    line-height: $nav-link-height;
     text-decoration: none;
     color: $main-color;
     text-align: center;
@@ -37,9 +37,9 @@
         bottom: 0;
         right: 0;
         left: 0;
-        height: 4px;
+        height: $spacing-xs;
         background-color: $blue-color;
-        border-radius: 8px;
+        border-radius: $border-radius-secondary;
       }
     }
   }
