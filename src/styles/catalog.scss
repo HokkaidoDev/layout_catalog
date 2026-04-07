@@ -1,0 +1,20 @@
+.catalog {
+  display: grid;
+  grid-template-areas: 'card';
+  gap: 48px 46px;
+  padding: 50px 40px;
+  width: 944px;
+  margin: 0 auto;
+
+  @media (min-width: 488px) {
+    grid-template-areas: 'card card';
+  }
+
+  @media (min-width: 768px) {
+    grid-template-areas: 'card card card';
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-areas: 'card card card card';
+  }
+}
